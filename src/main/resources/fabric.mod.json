@@ -5,9 +5,14 @@
   "name": "Mineral World",
   "description": "矿物世界：保留原版地形，但主世界、下界、末地的方块全部替换为原版矿物方块！",
   "authors": [
-    "MinecraftModDev"
+    "ckycen"
   ],
-  "license": "MIT",
+  "license": "GPL-3.0-only",
+  "contact": {
+    "homepage": "https://github.com/ckycen/mineralworld",
+    "sources": "https://github.com/ckycen/mineralworld",
+    "issues": "https://github.com/ckycen/mineralworld/issues"
+  },
   "environment": "*",
   "entrypoints": {
     "main": [
