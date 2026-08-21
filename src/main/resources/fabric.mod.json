@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "mineralworld",
+  "version": "${version}",
+  "name": "Mineral World",
+  "description": "矿物世界：保留原版地形，但主世界、下界、末地的方块全部替换为原版矿物方块！",
+  "authors": [
+    "MinecraftModDev"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "mineralworld.MineralWorld"
+    ]
+  },
+  "mixins": [
+    "mineralworld.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21"
+  }
+}
