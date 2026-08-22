@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "mineralworld.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "TreeFeatureMixin",
+    "PlantBlockMixin",
+    "ChorusPlantFeatureMixin",
+    "HugeFungusFeatureMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
